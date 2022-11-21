@@ -1986,6 +1986,11 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: a1f896589708b2f4084398aa9a9cc85e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f92111f5c93254ab48afe536580eff, type: 3}
+--- !u!1 &457955904 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 17f92111f5c93254ab48afe536580eff, type: 3}
+  m_PrefabInstance: {fileID: 457955903}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &487255881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4079,7 +4084,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.001
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 51.66
   orthographic: 0
@@ -4106,8 +4111,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195605913}
-  m_LocalRotation: {x: 0.011663539, y: -0.8417148, z: -0.0073347418, w: -0.53974664}
-  m_LocalPosition: {x: 14.6649, y: 1.1581, z: -13.5274}
+  m_LocalRotation: {x: -0.09686061, y: -0.5183014, z: -0.030328492, w: 0.84915364}
+  m_LocalPosition: {x: 14.861, y: 1.219, z: -14.064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4668,6 +4673,8 @@ PlayableDirector:
     value: {fileID: 692549594}
   - key: {fileID: 5967031246912231065, guid: b57c72363732cec469126cf18de00892, type: 2}
     value: {fileID: 1358937275}
+  - key: {fileID: 1647977011354180663, guid: b57c72363732cec469126cf18de00892, type: 2}
+    value: {fileID: 457955904}
   m_ExposedReferences:
     m_References:
     - 06f56a9a9b8a7ab4797328ce6036b64b: {fileID: 64283492}
