@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CutsceneDupla.unity
+    guid: 98c462a4b96ab454f9cb9b81b13eea57
   m_configObjects: {}
